@@ -12,6 +12,8 @@
 		138CFCD82010B7F200E2AFF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138CFCD62010B7F200E2AFF4 /* Main.storyboard */; };
 		138CFCDD2010B7F200E2AFF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138CFCDB2010B7F200E2AFF4 /* LaunchScreen.storyboard */; };
 		138CFCE52010B80300E2AFF4 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138CFCE42010B80300E2AFF4 /* TestController.swift */; };
+		138CFCE72010C21300E2AFF4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 138CFCE62010C21300E2AFF4 /* LICENSE */; };
+		13E2F3712010D8B100388E6B /* FirstCocoaPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 13E2F3702010D8B100388E6B /* FirstCocoaPod.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		138CFCDC2010B7F200E2AFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		138CFCDE2010B7F200E2AFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		138CFCE42010B80300E2AFF4 /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		138CFCE62010C21300E2AFF4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		13E2F3702010D8B100388E6B /* FirstCocoaPod.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FirstCocoaPod.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		138CFCD12010B7F200E2AFF4 /* FirstCocoaPod */ = {
 			isa = PBXGroup;
 			children = (
+				13E2F3702010D8B100388E6B /* FirstCocoaPod.podspec */,
 				138CFCD22010B7F200E2AFF4 /* AppDelegate.swift */,
 				138CFCD42010B7F200E2AFF4 /* ViewController.swift */,
 				138CFCE42010B80300E2AFF4 /* TestController.swift */,
 				138CFCD62010B7F200E2AFF4 /* Main.storyboard */,
 				138CFCDB2010B7F200E2AFF4 /* LaunchScreen.storyboard */,
 				138CFCDE2010B7F200E2AFF4 /* Info.plist */,
+				138CFCE62010C21300E2AFF4 /* LICENSE */,
 			);
 			path = FirstCocoaPod;
 			sourceTree = "<group>";
@@ -123,6 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				138CFCE72010C21300E2AFF4 /* LICENSE in Resources */,
+				13E2F3712010D8B100388E6B /* FirstCocoaPod.podspec in Resources */,
 				138CFCDD2010B7F200E2AFF4 /* LaunchScreen.storyboard in Resources */,
 				138CFCD82010B7F200E2AFF4 /* Main.storyboard in Resources */,
 			);
@@ -275,6 +283,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FirstCocoaPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.trellisys.Papyrus.FirstCocoaPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,6 +297,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FirstCocoaPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.trellisys.Papyrus.FirstCocoaPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
