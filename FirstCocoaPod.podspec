@@ -10,7 +10,7 @@ DESC
 s.homepage         = 'https://github.com/KanagarajPonnusamy/MyFirstPod'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'KanagarajPonnusamy' => 'kanagupbk@gmail.com' }
-s.source           = { :git => 'https://github.com/KanagarajPonnusamy/MyFirstPod.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/KanagarajPonnusamy/MyFirstPod.git', :tag => '1.0' }
 
 s.ios.deployment_target = '10.0'
 s.source_files = 'FirstCocoaPod/*.swift'
